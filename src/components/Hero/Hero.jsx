@@ -1,14 +1,16 @@
+import "./Hero.css"
+
 function Hero() {
   return (
-    <section>
-      <h1>Controla tus finanzas como un profesional</h1>
+    <section className="hero">
+      <h1 className="hero-title">Controla tus finanzas como un profesional</h1>
 
-      <p>
+      <p className="hero-description">
         Gestiona gastos, ahorros e inversiones
         desde una sola plataforma.
       </p>
 
-      <button>Comenzar Gratis</button>
+      <button className="hero-button">Comenzar Gratis</button>
     </section>
   )
 }
