@@ -1,0 +1,16 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 100dvh;
+    gap: 2rem;
+    padding: 3rem;
+}
+
+.home-preview-container {
+    flex: 3;
+}
+
+.home-content-container {
+    flex: 7;
+}

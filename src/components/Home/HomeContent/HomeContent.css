@@ -1,13 +1,12 @@
-.hero {
+.home-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
     text-align: center;
 }
 
-.hero-title {
+.home-title {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
@@ -15,16 +14,33 @@
     padding: 1rem;
 }
 
-.hero-description {
+.home-description {
     font-size: 1.25rem;
     line-height: 1.5;
     padding: 0 1rem 1rem;
     max-width: 60ch;
 }
+.home-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+}
 
-.hero-button {
+.home-button {
     padding: 0.75rem 1.5rem;
     font-size: 1rem;
     border-radius: 0.625rem;
     cursor: pointer;
+}
+.demo-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+}
+.hint-text{
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 0.5rem;
 }
