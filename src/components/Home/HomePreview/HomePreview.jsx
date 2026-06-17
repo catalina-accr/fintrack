@@ -29,7 +29,7 @@ function HomePreview() {
           (prevIndex + 1) % previews.length
         );
         setIsVisible(true);
-      }, 400);
+      }, 100);
     }, 3000);
 
     return () => clearInterval(interval);

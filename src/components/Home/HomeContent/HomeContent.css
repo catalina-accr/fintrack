@@ -1,46 +1,57 @@
 .home-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .home-title {
-    font-size: 2.5rem;
-    font-weight: 700;
-    line-height: 1.2;
-    margin-bottom: 1rem;
-    padding: 1rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-md);
+  padding: var(--space-md);
+  color: var(--color-text);
 }
 
 .home-description {
-    font-size: 1.25rem;
-    line-height: 1.5;
-    padding: 0 1rem 1rem;
-    max-width: 60ch;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 0 var(--space-md) var(--space-md);
+  max-width: 60ch;
+  color: var(--color-text-secondary);
 }
+
 .home-buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
 }
 
 .home-button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 0.625rem;
-    cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 1rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background: var(--color-primary-dark);
+  color: var(--color-surface);
+  border: none;
 }
+
 .demo-button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 0.625rem;
-    cursor: pointer;
+  padding: var(--space-sm) var(--space-lg);
+  font-size: 1rem;
+  border-radius: 0.625rem;
+  cursor: pointer;
+  background: transparent;
+  color: var(--color-primary-dark);
+  border: 1.5px solid var(--color-primary-dark);
 }
-.hint-text{
-    font-size: 0.875rem;
-    color: #666;
-    margin-top: 0.5rem;
+
+.hint-text {
+  font-size: 0.875rem;
+  margin-top: var(--space-sm);
+  color: var(--color-text-muted);
 }

@@ -1,0 +1,42 @@
+/* src/styles/colors.css */
+:root {
+  /* Fondos */
+  --color-background: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-card: #F4ECDD;
+  /* Marca */
+  --color-primary: #56B6C6;
+  --color-primary-dark: #4E8D9C;
+  --color-secondary: #170C79;
+  /* Estados */
+  --color-success: #85C79A;
+  --color-warning: #EDF7BD;
+  --color-error: #C95A5A;
+  /* Texto */
+  --color-text: #281C59;
+  --color-text-secondary: #4E8D9C;
+  --color-text-muted: #7A7A7A;
+  /* Bordes */
+  --color-border: #D8D1C2;
+  --color-divider: #E7E0D2;
+  /* Extras */
+  --color-shadow: rgba(40, 28, 89, 0.08);
+}
+
+[data-theme="dark"] {
+  --color-background: #16112D;
+  --color-surface: #211A45;
+  --color-card: #281C59;
+  --color-primary: #56B6C6;
+  --color-primary-dark: #8ACBD0;
+  --color-secondary: #EDF7BD;
+  --color-success: #85C79A;
+  --color-warning: #EDF7BD;
+  --color-error: #FF8A8A;
+  --color-text: #F8F7F3;
+  --color-text-secondary: #D7E4E6;
+  --color-text-muted: #A9B3C0;
+  --color-border: #3B3465;
+  --color-divider: #332C5B;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+}

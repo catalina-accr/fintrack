@@ -11,8 +11,8 @@ function HomeContent() {
       </p>
 
       <div className="home-buttons">
-        <button className="home-button">Comenzar Gratis</button>
-        <button className="demo-button">Ver Demo</button>
+        <button className="home-button" aria-label="Comenzar prueba gratuita">Comenzar Gratis</button>
+        <button className="demo-button" aria-label="Ver demostración">Ver Demo</button>
       </div>  
       <p className="hint-text">No se requiere tarjeta de crédito</p>
     </section>
